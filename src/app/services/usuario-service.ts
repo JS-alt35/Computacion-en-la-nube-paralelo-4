@@ -10,7 +10,7 @@ export class UsuarioService {
 
   private http = inject(HttpClient);
 
-  private API_USARIOS = 'https://app-fire-98f40-default-rtdb.firebaseio.com/usuarios.json'
+  private API_USARIOS = 'https://jordan-5fa40-default-rtdb.firebaseio.com/usuarios.json'
 
   //Método POST
   postUsuarios(usuario:Usuario):Observable<Usuario>{
